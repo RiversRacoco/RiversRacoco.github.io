@@ -2,14 +2,26 @@ body {
  padding:0;
  margin:0;
  background-color: rgb(28, 30, 33);
+ font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: white;
 }  
 
+h1 {
+    text-align: center;
+}
 .header-Image {
     width:100%; 
     object-fit:contain; 
     
 }
 
+.header-parallax {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #gradient {
     transform: translate(0, -10px);
     height: 100px;
