@@ -50,7 +50,7 @@ li {
 
 .column {
     float: left;
-    width: 50%;
+    width: 33.3333333333%;
   }
   
   /* Clear floats after the columns */
@@ -61,5 +61,5 @@ li {
   }
 
 .social-image {
-    width: 30%;
+    width: 50%;
 }
