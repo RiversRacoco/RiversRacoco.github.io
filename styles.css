@@ -75,6 +75,29 @@ li {
     width: 50%;
 }
 
+button {
+   padding: 20px;
+   
+   border-width: 4px;
+   border-color: #ffffff;
+   cursor: pointer;
+   font-family: 'Lucida Grande Bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+   border-radius: 15px;
+   font-size: 20px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   background: linear-gradient(180deg, rgba(64,64,109,1) 0%, rgba(34,34,57,1) 100%);
+}
+
+button:hover {
+    
+    background: linear-gradient(180deg, rgb(50, 50, 86) 0%, rgb(20, 20, 33) 100%);
+}
+
+.footer {
+    padding: 50px;
+}
+
 @media all and (min-width:960px) and (max-width: 1024px) {
     h1 {
         font-size: 100px;
@@ -247,3 +270,45 @@ li {
         width: 75%;
     }
   }
+
+/* .menuButton {
+    background-color: #000000;
+  }
+
+.menuButton a {
+    float: left;
+    text-decoration: none;
+  }
+
+.dropdown {
+    float: center;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: #000000;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:focus {
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color 
+
+} */
