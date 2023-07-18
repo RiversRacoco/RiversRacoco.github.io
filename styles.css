@@ -1,125 +1,166 @@
+/* Reset */
 body {
- padding:0;
- margin:0;
- background-color: rgb(28, 30, 33);
- font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- color: white;
- text-align: center;
-}  
-
-h1 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Body */
+  body {
+    background-color: rgb(28, 30, 33);
+    font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Heading Styles */
+  h1 {
     text-align: center;
     font-size: 48px;
-}
-
-p {
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  /* Paragraph Styles */
+  p {
     text-align: center;
     font-size: 18px;
-}
+  }
+  
+  .grid-row {
 
-h2 {
-    font-size: 28px;
-}
-.header.img {
-    width:100%;
-    vertical-align:middle;
-    object-fit: contain;
-}
+  }
+  
+  #grid div {
+    padding: 5px;
+  }
+  #grid button {
+    padding: 0;
+    border: none;
+    margin: 5px;
+  }
 
-.header {
-    width:100%; 
-    height:450px;
+  #grid img {
+    width:30vw;
+    max-width: 400px;
+    min-width: 200px;
+    border: 4px outset seashell;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #000000 ;
+  }
+
+  #grid img:hover, #grid button:hover {
+    transition: 0.4s ease;
+    transform: scale(1.02);
+  }
+
+  .grid
+  /* Header Styles */
+  .header {
+    width: 100%;
+    height: 450px;
     background-color: #000000;
-}
-li {
+  }
+  
+  .header.img {
+    width: 100%;
+    vertical-align: middle;
+    object-fit: contain;
+  }
+  
+  /* List Styles */
+  li {
     align-items: center;
     font-size: 18px;
     text-align: left;
-}
-
-/* .header-parallax {
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
-.div-list {
+  }
+  
+  /* Div List Styles */
+  .div-list {
     margin: auto;
     width: 50%;
-}
-
-#gradient {
+  }
+  
+  /* Gradient Styles */
+  #gradient {
     transform: translate(0, -10px);
     height: 100px;
     background-image: linear-gradient(180deg, black, rgb(28, 30, 33, 0));
-}
-
-.rivers-image {
-  width:fit-content 
-}
-
-.column {
+  }
+  
+  /* Rivers Image Styles */
+  .rivers-image {
+    width: fit-content;
+  }
+  
+  /* Column and Row Styles */
+  .column {
     float: left;
     width: 33.3333333333%;
   }
   
-.row:after {
+  .row:after {
     content: "";
     display: table;
     clear: both;
   }
-
-.social-image {
+  
+  /* Social Image Styles */
+  .social-image {
     width: 50%;
-}
-
-button {
-   padding: 20px;
-   
-   border-width: 4px;
-   border-color: #ffffff;
-   cursor: pointer;
-   font-family: 'Lucida Grande Bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   color: white;
-   border-radius: 15px;
-   font-size: 20px;
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-   background: linear-gradient(180deg, rgba(64,64,109,1) 0%, rgba(34,34,57,1) 100%);
-}
-
-button:hover {
-    
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 20px;
+    border-width: 4px;
+    border-color: #ffffff;
+    cursor: pointer;
+    font-family: 'Lucida Grande Bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(180deg, rgba(64, 64, 109, 1) 0%, rgba(34, 34, 57, 1) 100%);
+  }
+  
+  button:hover {
     background: linear-gradient(180deg, rgb(50, 50, 86) 0%, rgb(20, 20, 33) 100%);
-}
-
-.footer {
+  }
+  
+  /* Footer Styles */
+  .footer {
     padding: 50px;
-}
-
-* {box-sizing:border-box}
-
-.slideshow-container {
+  }
+  
+  /* Slideshow Styles */
+  * {
+    box-sizing: border-box;
+  }
+  
+  .slideshow-container {
     padding-top: 1%;
     max-width: 62vh;
     position: relative;
     margin: auto;
-}
-
-.slideshow-image {
+  }
+  
+  .slideshow-image {
     border: 4px outset #ffffff;
     border-radius: 15px;
     width: 100%;
-}
-.mySlides {
+  }
+  
+  .mySlides {
     display: none;
-}
-
-.prev, .next {
+  }
+  
+  .prev,
+  .next {
     cursor: pointer;
-    position:absolute;
-    top:50%;
+    position: absolute;
+    top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -127,25 +168,26 @@ button:hover {
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius:  0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
     user-select: none;
-}
-
-.next {
+  }
+  
+  .next {
     right: 0;
     border-radius: 15px 0 0 15px;
-}
-
-.prev {
+  }
+  
+  .prev {
     left: 0;
     border-radius: 0 15px 15px 0;
-}
-
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-}
-
-.text {
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .text {
     color: rgb(255, 255, 255);
     font-size: 15px;
     padding: 8px 12px;
@@ -153,18 +195,18 @@ button:hover {
     bottom: 8px;
     width: 100%;
     text-align: center;
-}
-
-.numbertext {
+  }
+  
+  .numbertext {
     color: seashell;
     font-size: 12px;
-    padding: 8px 12px;
+    padding: 20px 12px;
     position: absolute;
-    top: o;
-}
-
-.dot {
-    cursor:pointer;
+    top: 0;
+  }
+  
+  .dot {
+    cursor: pointer;
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -172,233 +214,168 @@ button:hover {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-background-color: #717171;
-}
-
-.fade {
-animation-name: fade;
-animation-duration: 1.5s;
-}
-
-@keyframes fade {
-from {opacity: .4}
-to {opacity: 1}
-}
-
-@media all and (min-width:960px) and (max-width: 1024px) {
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Media Queries */
+  @media all and (min-width: 960px) and (max-width: 1024px) {
     h1 {
-        font-size: 100px;
+      font-size: 100px;
     }
     h2 {
-        font-size: 75px;
+      font-size: 75px;
     }
     p {
-        font-size: 50px;
+      font-size: 50px;
     }
     li {
-        font-size: 50px;
+      font-size: 50px;
     }
-
-    .social-image {
-        width: 75%;
-    }
-
+    .social-image,
     .rivers-image {
-        width: 75%;
+      width: 75%;
     }
-    
     .header.img {
-        width:100%;
-        vertical-align:middle;
-        object-fit:contain;
+      width: 100%;
+      vertical-align: middle;
+      object-fit: contain;
     }
-    
     .header {
-        width:100%; 
-        height:300px;
-        background-color: #000000;
+      width: 100%;
+      height: 300px;
+      background-color: #000000;
     }
   }
   
-  @media all and (min-width:801px) and (max-width: 959px) {
+  @media all and (min-width: 801px) and (max-width: 959px) {
     h1 {
-        font-size: 100px;
+      font-size: 100px;
     }
     h2 {
-        font-size: 75px;
+      font-size: 75px;
     }
     p {
-        font-size: 50px;
+      font-size: 50px;
     }
     li {
-        font-size: 50px;
+      font-size: 50px;
     }
-
-    .social-image {
-        width: 75%;
-    }
-
+    .social-image,
     .rivers-image {
-        width: 75%;
+      width: 75%;
     }
   }
   
-  @media all and (min-width:769px) and (max-width: 800px) {
+  @media all and (min-width: 769px) and (max-width: 800px) {
     h1 {
-        font-size: 100px;
+      font-size: 100px;
     }
     h2 {
-        font-size: 75px;
+      font-size: 75px;
     }
     p {
-        font-size: 50px;
+      font-size: 50px;
     }
     li {
-        font-size: 50px;
+      font-size: 50px;
     }
-
-    .social-image {
-        width: 75%;
-    }
-
+    .social-image,
     .rivers-image {
-        width: 75%;
+      width: 75%;
     }
   }
   
-  @media all and (min-width:569px) and (max-width: 768px) {
+  @media all and (min-width: 569px) and (max-width: 768px) {
     h1 {
-        font-size: 100px;
+      font-size: 100px;
     }
     h2 {
-        font-size: 75px;
+      font-size: 75px;
     }
     p {
-        font-size: 50px;
+      font-size: 50px;
     }
     li {
-        font-size: 50px;
+      font-size: 50px;
     }
-
-    .social-image {
-        width: 75%;
-    }
-
+    .social-image,
     .rivers-image {
-        width: 75%;
+      width: 75%;
     }
   }
   
-  @media all and (min-width:481px) and (max-width: 568px) {
+  @media all and (min-width: 481px) and (max-width: 568px) {
     h1 {
-        font-size: 100px;
+      font-size: 100px;
     }
     h2 {
-        font-size: 75px;
+      font-size: 75px;
     }
     p {
-        font-size: 50px;
+      font-size: 50px;
     }
     li {
-        font-size: 50px;
+      font-size: 50px;
     }
-
-    .social-image {
-        width: 75%;
-    }
-
+    .social-image,
     .rivers-image {
-        width: 75%;
+      width: 75%;
     }
   }
   
-  @media all and (min-width:321px) and (max-width: 480px) {
+  @media all and (min-width: 321px) and (max-width: 480px) {
     h1 {
-        font-size: 100px;
+      font-size: 100px;
     }
     h2 {
-        font-size: 75px;
+      font-size: 75px;
     }
     p {
-        font-size: 50px;
+      font-size: 50px;
     }
     li {
-        font-size: 50px;
+      font-size: 50px;
     }
-
-    .social-image {
-        width: 75%;
-    }
-
+    .social-image,
     .rivers-image {
-        width: 75%;
+      width: 75%;
     }
   }
   
-  @media all and (min-width:0px) and (max-width: 320px) {
+  @media all and (min-width: 0px) and (max-width: 320px) {
     h1 {
-        font-size: 100px;
+      font-size: 100px;
     }
     h2 {
-        font-size: 75px;
+      font-size: 75px;
     }
     p {
-        font-size: 50px;
+      font-size: 50px;
     }
     li {
-        font-size: 50px;
+      font-size: 50px;
     }
-
-    .social-image {
-        width: 75%;
-    }
-
+    .social-image,
     .rivers-image {
-        width: 75%;
+      width: 75%;
     }
   }
-
-/* .menuButton {
-    background-color: #000000;
-  }
-
-.menuButton a {
-    float: left;
-    text-decoration: none;
-  }
-
-.dropdown {
-    float: center;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: #000000;
-    margin: 0;
-}
-
-.dropdown:hover .dropbtn, .dropbtn:focus {
-
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;
-}
-
-.dropdown-content a {
-    float: none;
-    color 
-
-} */
+  
