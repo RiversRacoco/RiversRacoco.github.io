@@ -11,6 +11,9 @@ h1 {
     text-align: center;
 }
 
+@media (max-width: 1000px) {
+    
+}
 p {
     text-align: center;
 }
@@ -25,13 +28,13 @@ li {
     text-align: center;
 }
 
-.header-parallax {
+/* .header-parallax {
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .div-list {
     margin: auto;
@@ -53,7 +56,6 @@ li {
     width: 33.3333333333%;
   }
   
-  /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
