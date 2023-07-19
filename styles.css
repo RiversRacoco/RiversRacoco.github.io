@@ -28,6 +28,10 @@ body {
     font-size: 18px;
   }
   
+  .grid-row {
+
+  }
+  
   #grid div {
     padding: 5px;
   }
@@ -38,19 +42,17 @@ body {
   }
 
   #grid img {
-    width:200px;
-    max-width: 400px;
-    min-width: 200px;
+    width:25%;
+    /* max-width: 400px; */
+    /* min-width: 200px; */
     border: 4px outset seashell;
     border-radius: 15px;
-    box-shadow: 10px 5px 5px #000000;
+    box-shadow: 10px 5px 5px #000000 ;
   }
 
   #grid img:hover, #grid button:hover {
     transition: 0.4s ease;
     transform: scale(1.02);
-    box-shadow: 15px 10px 5px #000000;
-    cursor: pointer;
   }
 
   .grid
@@ -106,7 +108,7 @@ body {
   
   /* Social Image Styles */
   .social-image {
-    width: 25%;
+    width: 50%;
   }
   
   /* Button Styles */
@@ -260,27 +262,6 @@ body {
       width: 100%;
       height: 300px;
       background-color: #000000;
-    }
-    .prev,
-    .next {
-      cursor: pointer;
-      position: absolute;
-      top: 25%;
-      width: 10%;
-      margin-top: -22px;
-      padding: 16px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-      height: 50%;
-    }
-
-    .prev a, 
-    .next a {
-      vertical-align: 50%;
     }
   }
   
