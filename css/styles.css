@@ -35,13 +35,14 @@ body {
     padding: 0;
     border: none;
     margin: 5px;
+    background: none;
   }
 
   #grid img {
     width:200px;
     max-width: 400px;
     min-width: 200px;
-    border: 4px outset seashell;
+    border: 0px outset seashell;
     border-radius: 15px;
     box-shadow: 10px 5px 5px #000000;
   }
@@ -112,19 +113,19 @@ body {
   /* Button Styles */
   button {
     padding: 20px;
-    border-width: 4px;
+    border-width: 0px;
     border-color: #ffffff;
     cursor: pointer;
     font-family: 'Lucida Grande Bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: black;
     border-radius: 15px;
     font-size: 20px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background: linear-gradient(180deg, rgba(64, 64, 109, 1) 0%, rgba(34, 34, 57, 1) 100%);
+    background-color: seashell;
   }
   
   button:hover {
-    background: linear-gradient(180deg, rgb(50, 50, 86) 0%, rgb(20, 20, 33) 100%);
+  
   }
   
   /* Footer Styles */
