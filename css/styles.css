@@ -31,9 +31,9 @@ body {
   #grid div {
     padding: 5px;
     margin: 25px;
-    background-color: #323232;
+    /* background-color: #323232;
     border: 1px solid rgba(255, 255, 255, 0.10);
-    border-radius: 15px;
+    border-radius: 15px; */
   }
   #grid button {
     padding: 0;
@@ -237,6 +237,13 @@ body {
 
   #socials img {
     margin-bottom: 25px;
+  }
+
+  #box {
+    margin: 25px;
+    background-color: #323232;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 15px;
   }
   @keyframes fade {
     from {
