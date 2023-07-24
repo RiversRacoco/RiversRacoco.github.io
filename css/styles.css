@@ -6,9 +6,9 @@ body {
   
   /* Body */
   body {
-    background-color: rgb(28, 30, 33);
-    font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    background-color: #272526;
+    font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color: #E9E8E8;
     text-align: center;
   }
   
@@ -30,6 +30,10 @@ body {
   
   #grid div {
     padding: 5px;
+    margin: 25px;
+    background-color: #323232;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 15px;
   }
   #grid button {
     padding: 0;
@@ -42,19 +46,19 @@ body {
     width:200px;
     max-width: 400px;
     min-width: 200px;
-    border: 0px outset seashell;
+    border: 1px solid rgba(255, 255, 255, 0.10);
     border-radius: 15px;
-    box-shadow: 10px 5px 5px #000000;
+    background-color: none;
+    /* box-shadow: 10px 5px 5px #000000; */
   }
 
   #grid img:hover, #grid button:hover {
     transition: 0.4s ease;
     transform: scale(1.02);
-    box-shadow: 15px 10px 5px #000000;
+    /* box-shadow: 15px 10px 5px #000000; */
     cursor: pointer;
   }
 
-  .grid
   /* Header Styles */
   .header {
     width: 100%;
@@ -113,15 +117,14 @@ body {
   /* Button Styles */
   button {
     padding: 20px;
-    border-width: 0px;
-    border-color: #ffffff;
     cursor: pointer;
-    font-family: 'Lucida Grande Bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
+    font-family: 'Lucida Grande Bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color: rgb(255, 255, 255);
     border-radius: 15px;
     font-size: 20px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: seashell;
+    background-color: #323232;
+    border: 1px solid rgba(255, 255, 255, 0.10);
   }
   
   button:hover {
@@ -146,7 +149,7 @@ body {
   }
   
   .slideshow-image {
-    border: 4px outset #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.10);
     border-radius: 15px;
     width: 100%;
   }
@@ -225,6 +228,16 @@ body {
     animation-duration: 1.5s;
   }
   
+  #socials {
+    margin: 25px;
+    background-color: #323232;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 15px;
+  }
+
+  #socials img {
+    margin-bottom: 25px;
+  }
   @keyframes fade {
     from {
       opacity: 0.4;
